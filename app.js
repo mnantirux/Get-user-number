@@ -20,7 +20,7 @@ function randomnum(){
 
 function userNumber() {
     let user = document.getElementById("getNumber").value;
-    let y = document.getElementById("getNumber");
+    let y = document.getElementById("userNumber");
     y.innerHTML = user;
     y.style.backgroundColor = "lightyellow";
     y.style.color = "orange";
